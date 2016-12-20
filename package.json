@@ -1,0 +1,28 @@
+{
+    "name": "ghost-site",
+    "description": "A modification of Casper to be more like a commercial website than a blog.",
+    "version": "1.0.0",
+    "engines": {
+        "ghost": ">=0.9.0 <1.0.0"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Scott Telle"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/caspian154/GhostSite"
+    },
+    "bugs": "https://github.com/caspian154/GhostSite/issues"
+}

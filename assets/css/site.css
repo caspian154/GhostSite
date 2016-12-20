@@ -1,0 +1,93 @@
+body {
+  padding-top: 100px;
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+#main {
+  background-color: #f2f2f2;
+}
+
+#main-container {
+  background-color: #f2f2f2;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#ghost-slideshow-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#ghost-slideshow {
+  margin: auto;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.content-area {
+  background-color: #fff;
+}
+
+.widget-area {
+  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.news-snip {
+  border-bottom: #EBF2F6 1px solid;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.news-title {
+  margin-top: 15px;
+}
+
+
+/* ==========================================================================
+   Footer - The bottom of every page
+   ========================================================================== */
+
+.site-footer {
+    position: relative;
+    margin: 1rem 0 0 0;
+    padding: 1rem 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.75em;
+    color: #BBC7CC;
+}
+
+.site-footer a {
+    color: #BBC7CC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-footer a:hover {
+    border-bottom: #bbc7cc 1px solid;
+}
+
+.poweredby {
+    display: block;
+    width: 45%;
+    float: right;
+    text-align: right;
+}
+
+.copyright {
+    display: block;
+    width: 45%;
+    float: left;
+}
+
+.post-template .site-footer,
+.page-template .site-footer {
+    margin-top: 0;
+}

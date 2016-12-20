@@ -1,0 +1,21 @@
+{{!< default}}
+{{!-- The tag above means - insert everything in this file into the {body} of the default.hbs template --}}
+{{!-- The main content area on the homepage --}}
+<div id="main" role="main">
+  <div id="main-container" class="content container">
+    <div class="col-md-7 col-md-offset-1 content-area">
+      {{> slideshow}}
+
+      {{#get "posts" limit="1" filter="title:Home" as |site-home-text|}}
+        {{#foreach site-home-text}}
+          {{content}}
+        {{/foreach}}
+      {{/get}}
+    </div>
+
+    <div class="col-md-3 widget-area">
+      {{!-- The tag below includes the post loop - partials/loop.hbs --}}
+      {{> "news-feed"}}
+    </div>
+  </div>
+</div>
