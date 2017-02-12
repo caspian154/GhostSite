@@ -1,4 +1,4 @@
-{{#get "posts" filter="tags:slideshow" include="tags" as |slides|}}
+{{#get "posts" filter="tags:slideshow" include="tags" order="updated_at desc" as |slides|}}
 <div id="ghost-slideshow-container">
   <div id="ghost-slideshow" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
