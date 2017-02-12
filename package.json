@@ -1,5 +1,5 @@
 {
-    "name": "ghost-site",
+    "name": "ghostsite",
     "description": "A modification of Casper to be more like a commercial website than a blog.",
     "version": "1.0.0",
     "engines": {
@@ -22,7 +22,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/caspian154/GhostSite"
+        "url": "https://github.com/caspian154/ghostsite"
     },
-    "bugs": "https://github.com/caspian154/GhostSite/issues"
+    "bugs": "https://github.com/caspian154/ghostsite/issues"
 }

@@ -2,15 +2,15 @@
 <h2 class="news-header"><a href="/tag/news-updates">News &amp; Updates</a></h2>
 
 {{!-- This is the post loop - each post will be output using this markup --}}
-{{#get "posts" filter="tags:news-updates" as |articles|}}
+{{#get "posts" limit="5" filter="tags:news-updates" as |articles|}}
   {{#foreach articles}}
   <div class="news-snip">
       <h4 class="news-title"><a href="{{url}}">{{title}}</a></h4>
       <section class="news-excerpt">
-          <p>{{excerpt words="10"}} <a class="read-more" href="{{url}}">&laquo; more &raquo;</a></p>
+          <p>{{excerpt words="10"}}</p>
       </section>
       <footer class="post-meta">
-          posted <time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+          posted: {{date format="DD MMMM YYYY"}}
       </footer>
   </div>
   {{/foreach}}
